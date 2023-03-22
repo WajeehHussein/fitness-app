@@ -1,6 +1,7 @@
 import { Box, Button, Typography } from "@mui/material";
 import React from "react";
 import HeroBannerImage from "../assets/images/banner3.jpg";
+import "./HeroBanner.css";
 
 const HeroBanner = () => {
   return (
@@ -11,6 +12,7 @@ const HeroBanner = () => {
       }}
       position="relative"
       p="20px"
+      className="container"
     >
       <Typography color="#FF2625" fontWeight="600" fontSize="26px">
         Fitness Club
